@@ -29,6 +29,7 @@
                 <h2>Your order is our priority. </h2>
                 <h2>Everyone's choice is found here.</h2>
             </div>
+        </div>    
             <div class="order-form">
                 <div class="container">
                     <div class="row">
@@ -145,23 +146,56 @@
                             </div>
 
                         </div>
+                        <div class="total-price">
+                            <button id="checkout" class="btn btn-success my-4">Checkout</button>
+                        </div>
+                        <div class="col-md-4">
+                            <div id="show-order">
+                                <div class="order-title">
+                                    <h2 id="order-title">Receipt</h2>
+                                </div>
+                                <div class="card">
+                                    <div class="card-title">
+                                        <h3>Order Summary</h3>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-sm-8">
+                                                <h5>Details</h5>
+                                                <ul id="details" class="list-unstyled">
+                                                    <li>Customer Name : <span class="customer-name"></span></li>
+                                                    <li>Phone Number : <span class="customer-contact"></span></li>
+                                                    <li>Pizza Size : <span class="ordered-pizza-size"></span></li>
+                                                    <li>Pizza Crust : <span class="ordered-pizza-crust"></span></li>
+                                                    <li>Delivery : <span class="delivery-choice"></span></li>
+                                                    <ul id="toppings" class="list-unstyled"></ul>
+                                                    <li>Number of Pizza : <span class="number-of-pizza"></span></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-sm-4">
+                                                <h5>Cost</h5>
+                                                <ul id="prices" class="list-unstyled">
+                                                    <li><span class="pizza-size-cost"></span></li>
+                                                    <li><span class="pizza-crust-cost"></span></li>
+                                                    <li><span class="delivery-cost"></span></li>
+        
+                                                    <ul id="toppings-cost" class="list-unstyled">
+                                                        
+                                                    </ul>
+        
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <hr class="border-white">
+                                        <p>Total Price : <span class="float-right total"></span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
             </div>
-        
-
-
-
-
-
-
-
-
-
-
-
-
 
         <footer>
             <p>LaPizzeria Copyright 2021 All rights Reserved.</p>
