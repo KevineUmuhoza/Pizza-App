@@ -45,3 +45,50 @@ h1{
     color: rgb(189, 33, 33);
     
 }
+.button{
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+
+.button a{
+    background-color: rgb(189, 33, 33);
+    height: 50px;
+    font-size: 30px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: black;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+}
+#menu{
+    padding-bottom: 50px;
+    font-style: italic;
+}
+
+.menu-overlay{
+    background-color: rgb(207, 122, 66);
+    
+
+}
+.menu {
+    margin-top: 30px;
+    background-image: url("../images/sec/b4.jpg");
+    padding: 0;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 150px ;
+    width: 400px;
+    height: 400px;
+    padding-bottom: 20px;
+}
+
