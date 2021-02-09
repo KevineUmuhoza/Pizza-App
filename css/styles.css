@@ -163,3 +163,11 @@ textarea[type=text] {
     margin-bottom: 100px;
 
  }
+footer{
+    background: black;
+    padding: 20px 23px;
+    color:rgb(189, 33, 33);
+    text-align: center;
+    font-weight: 700;
+
+}
