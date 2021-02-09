@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.css">
@@ -14,13 +13,16 @@
         <title>La Pizzeria</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scroling-navbar">
+        <nav class="navbar">
             <h1 id="logo">La Pizzeria</h1>
             <div class="nav">
                 <ul class="nav-items">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#menu">Menu</a></li>
-                    <li><a href="#order">Order</a></li>
-                    <li><a href="#contactUs">Contact Us</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    
                 </ul>
             </div>
         </nav>
@@ -30,38 +32,38 @@
                 <h2>In one second, your order is on your doorstep.</h2>
             </div>
             <div class="button">
+                
                 <a href="order.html">Order</a>
 
             </div>
               
         </div>
-        <div class="menu col-md-12">
+        
             <div class="menu-overlay">
                 <h1 id="menu">Menu</h1>
-                <div class="col-md-4">
-                    <img src="images/7.png" alt="small">
-                    <caption>Small<br>5000 Rwf</caption>
-                </div>
-                <div class="col-md-4">
-                    <img src="images/5.png" alt="medium">
-                    <caption>Medium<br>6000 Rwf</caption>
-                    
-                </div>
-                <div class="col-md-4">
-                    <img src="images/4.png" alt="large">
-                    <caption>Large<br>7000 Rwf</caption>
+                <div class="container">
+                    <img src="images/7.png" alt="small" width="23%">
+                    <caption id="small">Small<br>3500 Rwf</caption>
+                
+                    <img src="images/5.png" alt="medium" width="30%">
+                    <caption id="med">Medium<br>5000 Rwf</caption>
+                 
+    
+                    <img src="images/4.png" alt="large" width="30%">
+                    <caption id="large">Large<br>6000 Rwf</caption>
                 </div>
             </div>
-        </div>
+        
         <div class="about">
-            <h2 id="about">About Us</h2>
-            <img src="images/photo-1592332297895-9b2b20366101.jpeg" alt="">
-            <p>La Pizzeria is an online booking platform where you can order a pizza and receive it in an instant through our delivery service.</p>
+            <h1 id="about">About Us</h1>
+            <img src="images/photo-1592332297895-9b2b20366101.jpeg" alt="" id="aboutus-img" class="center">
+            <p>La Pizzeria is an online booking platform where</p>
+                <p>you can order a pizza and receive it in an instant through our delivery service.</p>
         </div>
         <div class="contact">
-            <h2 id="contact">Contact Us</h2>
-            <div class="contact-content">
-                <div class="column-left">
+            <h1 id="contact">Contact Us</h1>
+            <div class="row">
+                <div class="col-md-6">
                     <div class="text">Don't hesitate to contact us on:</div>
                     <div class="icons">
                         <div class="row">
@@ -78,23 +80,26 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="column-right">
+                
+                <div class="col-md-6">
                     <div class="text">Write us a message:
                         <form>
-                            <div class="row" id="contactUs-input">
-                                <div class="col-md-6">
+                            <div class="row" id="name-input">
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="name"></label>
                                         <input type="text" name="FullName" class="required" id="fname" placeholder="Name...">
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                            </div>
+                            <div class="row" id="email-input">
+                                <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="email"></label>
                                         <input type="text" name="Email" class="required" id="email" placeholder="Email...">
                                     </div>
                                 </div>
+                            </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="message"></label>
@@ -105,16 +110,17 @@
             
                             </div>
                             <div class="submit">
-                                <input type="submit" value="Submit" class="button">
+                                <input type="submit" value="Submit">
                             </div>
                         </form>
                     </div>
                     
                 </div>
+            </div>    
 
             </div>
             <footer>
-                <p>LaPizzeria Copyright 2021 All rights Reserved.</p>
+                <p>LaPizzeria | Copyright 2021 |All rights Reserved.</p>
             </footer>
 
             <script src="js/scripts.js"></script>
