@@ -18,10 +18,10 @@
             <div class="nav">
                 <ul class="nav-items">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="#menu">Menu</a></li>
                     <li><a href="order.html">Order</a></li>
                     <li><a href="#about">About Us</a></li>
-                    <li><a href="index.html">Contact Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </div>
         </nav>
@@ -45,8 +45,8 @@
                                     <div class="card-title">
                                     <h4>PLease fill this form to place your order:</h4>
 
-                                </div>
                                     </div>
+                                </div>
                                     <div class="card-body">
                                         <div class="card-form">                                           
                                             <form id="order-form>">
@@ -58,7 +58,7 @@
                                                  </div>
                                                  <div class="form-group">  
                                                 <label for="pizza-size">Choose your preferred size</label>
-                                                <select name="pizza-size" id="size" class="form-control">
+                                                <select name="pizza-size" id="pizza-size" class="form-control">
                                                     <option value="small">Small</option>
                                                     <option value="medium">Medium</option>
                                                     <option value="large">Large</option>
@@ -121,7 +121,7 @@
                                             </div>
                                     
                                             <div class="form-group">
-                                                <label for="delivery-option">Would you like us to deliver the pizza?
+                                                <label for="delivered-option">Would you like us to deliver the pizza?
                                                 </label>
                                                   <div class="form-check">
                                                     <input type="radio" name="delivered" value="true" id="delivery-yes" class="form-check-input delivery-yes">
@@ -154,8 +154,8 @@
                         </div>
                         <div class="col-md-6">
                             <div id="show-order">
-                                <div class="order-title">
-                                    <h2 id="order-title">Receipt</h2>
+                                <div class="order-title pt-5 pb-2">
+                                    <h2 class="text-center">Receipt</h2>
                                 </div>
                                 <div class="card">
                                     <div class="card-header">
@@ -171,7 +171,7 @@
                                                     <li>Customer Name : <span class="customer-name"></span></li>
                                                     <li>Pizza Size : <span class="ordered-pizza-size"></span></li>
                                                     <li>Pizza Crust : <span class="ordered-pizza-crust"></span></li>
-                                                    <li>Delivery : <span class="delivery-choice"></span></li>
+                                                    <li>delivered : <span class="delivery-choice"></span></li>
                                                     <ul id="toppings" class="list-unstyled"></ul>
                                                     <li>Number of Orders : <span class="number-of-orders"></span></li>
                                                 </ul>
